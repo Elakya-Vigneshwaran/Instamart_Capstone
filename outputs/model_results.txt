@@ -1,0 +1,27 @@
+# Instamart Customer Support Ticket Classification
+
+## Dataset
+- Original tickets: 164
+- Cleaned tickets: 160
+- Complaint categories: 4
+- Training records: 128
+- Testing records: 32
+
+## Machine Learning Model
+- Algorithm: Logistic Regression
+- Text preprocessing: TF-IDF
+- Test accuracy: 100%
+
+## Complaint Categories
+- Billing
+- Delivery
+- Fraud
+- Technical
+
+## New Complaint Testing
+The model correctly classified several new complaints, including billing, fraud, delivery and clearly worded technical complaints.
+
+One technical complaint was initially misclassified as delivery, showing that the model may need more varied training examples.
+
+## Conclusion
+The Logistic Regression model successfully learned to classify customer support complaints in the synthetic Instamart dataset. Further testing with diverse real-world complaints is recommended before practical deployment.

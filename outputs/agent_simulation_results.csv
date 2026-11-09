@@ -1,0 +1,8 @@
+scenario_id,customer_id,message,predicted_outcome,refund_amount_inr,reason,expected_outcome,expected_refund_inr,outcome_correct
+S1,C0007,My order ORD-100048 reached me very late. I would like a refund.,REFUND,128.25,Eligible for automatic full refund.,REFUND,128.25,True
+S2,C0008,My order ORD-100067 reached me very late. I would like a refund.,REFUND,135.0,Eligible for automatic full refund.,REFUND,135.0,True
+S3,C0016,"Order ORD-100145 arrived far too late, please refund me.",ESCALATE,1999.0,Refund above INR 1000 requires human support lead approval.,ESCALATE,1999.0,True
+S4,C0001,"Please refund order ORD-100001, I did not like the delivery.",DENIED,0.0,Delivery was within the promised refund eligibility limit.,DENIED,0.0,True
+S5,C0003,I want my money back for order ORD-100025.,DENIED,0.0,Cancelled or incomplete orders are not eligible for refunds.,DENIED,0.0,True
+S6,C0001,Refund for order ORD-999999 please.,NOT_FOUND,0.0,Order or customer record not found.,NOT_FOUND,0.0,True
+S7,C0007,[LOOP] Refund order ORD-100048.,FALLBACK,0.0,Repeated processing detected. Fallback activated.,FALLBACK,0.0,True

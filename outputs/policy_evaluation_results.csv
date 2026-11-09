@@ -1,0 +1,15 @@
+question,expected_doc,predicted_doc,similarity,document_correct,expected_fact,fact_found,fact_correct
+What delivery time makes a completed order eligible for a full refund?,refund_policy.txt,refund_policy.txt,0.441,True,more than 45 minutes,True,True
+Who must approve a refund above INR 1000?,refund_policy.txt,refund_policy.txt,0.445,True,human support lead,True,True
+How many days do I have to raise a refund request?,refund_policy.txt,refund_policy.txt,0.351,True,within 7 days,True,True
+What is the delivery fee on small orders?,delivery_policy.txt,delivery_policy.txt,0.216,True,INR 25,True,True
+On orders of what value is delivery free?,delivery_policy.txt,delivery_policy.txt,0.185,True,INR 199 or more,True,True
+Why does the electronics delivery need a one time password?,delivery_policy.txt,delivery_policy.txt,0.26,True,one time password,True,True
+Is cash on delivery available for a large order?,payment_policy.txt,payment_policy.txt,0.414,True,INR 2500,True,True
+How soon is money returned when a payment fails but is deducted?,payment_policy.txt,payment_policy.txt,0.217,True,48 hours,True,True
+Can wallet balance be refunded as cash?,payment_policy.txt,payment_policy.txt,0.449,True,never refunded as cash,True,True
+When are delivery addresses deleted from active systems?,privacy_policy.txt,privacy_policy.txt,0.358,True,180 days,True,True
+How fast must a fraud ticket reach the security team?,escalation_policy.txt,escalation_policy.txt,0.27,True,within 2 hours,True,True
+After how many steps must an automated assistant hand over to a human?,escalation_policy.txt,escalation_policy.txt,0.284,True,6 steps,True,True
+What is the favourite colour of the company mascot?,NONE,NONE,0.0,True,,False,True
+Who won the cricket world cup final?,NONE,NONE,0.0,True,,False,True
